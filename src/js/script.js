@@ -19,7 +19,7 @@ let a = 12;
 let b = "12";
 let c = 8;
 
-cconsole.log("a != c:", a != c);
-console.log("a == b:", a == b);
-console.log("a === b:", a === b);
-console.log("a >= c:", a >= c); 
+cconsole.log("a != c:", a != c);        // true (10 é diferente de 5)
+console.log("a == b:", a == b);         // true (valores iguais, tipos diferentes)
+console.log("a === b:", a === b);       // false (valores iguais, tipos diferentes)
+console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
