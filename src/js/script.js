@@ -27,16 +27,18 @@ console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
 
 //Exercício 9
 
+//Variavel string
 let variavelstring = "321.12";
+//Variavel convertida para float
 let convertido = pareseFloat(variavelstring);
-
+//Apresentando tipo de variavel entre Float e Int
 if (!Number.isInteger(convertido)) {
     console.log("float")
 } 
 else {
     console.log("int")
 }
-
+//Valor da variavel e seu tipo 
 console.log(convertido);
 console.log(typeof convertido);
 
