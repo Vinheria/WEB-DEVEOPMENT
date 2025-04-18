@@ -28,3 +28,4 @@ console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
 //Exercício 9
 
 let variavelstring = "321.12";
+let convertido = pareseFloat(variavelstring);
