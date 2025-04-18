@@ -23,3 +23,8 @@ cconsole.log("a != c:", a != c);        // true (10 é diferente de 5)
 console.log("a == b:", a == b);         // true (valores iguais, tipos diferentes)
 console.log("a === b:", a === b);       // false (valores iguais, tipos diferentes)
 console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
+
+
+//Exercício 9
+
+let variavelstring = "321.12";
