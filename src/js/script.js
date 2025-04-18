@@ -29,3 +29,11 @@ console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
 
 let variavelstring = "321.12";
 let convertido = pareseFloat(variavelstring);
+
+if (!Number.isInteger(convertido)) {
+    console.log("float")
+} 
+else {
+    console.log("int")
+}
+
