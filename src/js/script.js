@@ -25,6 +25,26 @@ console.log("a === b:", a === b);       // false (valores iguais, tipos diferent
 console.log("a >= c:", a >= c);         // true (10 é maior ou igual a 5)
 
 
+//Exercício 6
+
+//recebendo as notas
+
+let nota1 = parseFloat(prompt("Digite a primeira nota: "));
+console.log(nota1);
+let nota2 = parseFloat(prompt("Digite a segunda nota: "));
+console.log(nota2);
+let nota3 = parseFloat(prompt("Digite a terceira nota: "));
+console.log(nota3);
+let nota4 = parseFloat(prompt("Digite a quarta nota: "));
+console.log(nota4);
+let nota5 = parseFloat(prompt("Digite a quinta nota: "));
+console.log(nota5);
+let nota6 = parseFloat(prompt("Digite a sexta nota: "));
+console.log(nota6);
+let nota7 = parseFloat(prompt("Digite a sétima nota: "));
+console.log(nota7);
+
+
 //Exercício 9
 
 //Variavel string
