@@ -67,6 +67,10 @@ const idadeAluno = Number(prompt("Digite sua idade:"))
 const curso = prompt("Digite seu curso:")
 const ano = parseInt(prompt("Digite o ano:"))
 
+//conectando com a tela
+
+let resultado = document.getElementById("resultado")
+
 //Exercício 9
 
 //Variavel string
