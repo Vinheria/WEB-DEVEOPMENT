@@ -44,6 +44,10 @@ console.log(nota6);
 let nota7 = parseFloat(prompt("Digite a sétima nota: "));
 console.log(nota7);
 
+//media
+
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+// console.log(media.toFixed(1))
 
 //Exercício 9
 
