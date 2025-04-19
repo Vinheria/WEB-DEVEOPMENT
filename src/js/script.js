@@ -64,16 +64,16 @@ for (let i = 1; i <= 50; i++) {
 //Exercício 5
 
 // Define os dados corretos do usuário no sistema
-let UsuarioCorreto = "admin";
-let SenhaCorreta = "1234";
+let usuarioCorreto = "admin";
+let senhaCorreta = "1234";
 
 // Solicita ao usuário o nome de usuário
-let UsuarioDigitado = prompt("Digite o nome de usuário:");
+let usuarioDigitado = prompt("Digite o nome de usuário:");
 // Solicita ao usuário a senha
-let SenhaDigitada = prompt("Digite a senha:");
+let senhaDigitada = prompt("Digite a senha:");
 
 // Verifica se os dados digitados são iguais aos cadastrados
-if (UsuarioDigitado === UsuarioCorreto && SenhaDigitada === SenhaCorreta) {
+if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
     // Se o nome e a senha estiverem certos, mostra mensagem de sucesso
     console.log("Login realizado com sucesso!");
 } else {
