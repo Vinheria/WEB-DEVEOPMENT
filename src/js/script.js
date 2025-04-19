@@ -116,6 +116,28 @@ resultado.innerHTML =
   "Curso: " + curso + "<br>" +
   "Ano: " + ano
 
+//Exercício 8
+
+// Texto base
+const texto = `Tecnologia é um produto da ciência e da engenharia que
+envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.`;
+
+
+// 1) Primeira posição de "em"
+console.log("1) Primeira posição de 'em':", texto.indexOf("em"));
+
+
+// 2) Última posição de "ia"
+console.log("2) Última posição de 'ia':", texto.lastIndexOf("ia"));
+
+
+// 3) Verifica se tem "ciência"
+console.log("3) Contém 'ciência'?", texto.includes("ciência"));
+
+
+// 4) Verifica se tem "métodos"
+console.log("4) Contém 'métodos'?", texto.includes("métodos"));
+
 //Exercício 9
 
 //Variavel string
