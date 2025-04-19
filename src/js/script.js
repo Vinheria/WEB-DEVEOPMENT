@@ -131,7 +131,7 @@ let resultado = document.getElementById("resultado")
 
 resultado.innerHTML = 
   "Nome: " + nome + "<br>" +
-  "Idade: " + idade + "<br>" +
+  "Idade: " + idadeAluno + "<br>" +
   "Curso: " + curso + "<br>" +
   "Ano: " + ano
 
