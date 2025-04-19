@@ -49,6 +49,14 @@ console.log(nota7);
 let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
 // console.log(media.toFixed(1))
 
+//if
+
+if (media >= 6) {
+    console.log("Parabéns você foi aprovado, sua média é:", media.toFixed(1));
+  } else {
+    console.log("Que pena! Você foi reprovado com a média:", media.toFixed(1));
+  }
+
 //Exercício 9
 
 //Variavel string
