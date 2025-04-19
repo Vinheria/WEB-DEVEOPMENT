@@ -71,6 +71,14 @@ const ano = parseInt(prompt("Digite o ano:"))
 
 let resultado = document.getElementById("resultado")
 
+//imprimindo as informações
+
+resultado.innerHTML = 
+  "Nome: " + nome + "<br>" +
+  "Idade: " + idade + "<br>" +
+  "Curso: " + curso + "<br>" +
+  "Ano: " + ano
+
 //Exercício 9
 
 //Variavel string
