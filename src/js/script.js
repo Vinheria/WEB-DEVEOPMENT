@@ -57,6 +57,16 @@ if (media >= 6) {
     console.log("Que pena! Você foi reprovado com a média:", media.toFixed(1));
   }
 
+
+//Exercício 7
+
+//adquirindo as informações do aluno
+
+const nome = prompt("Digite seu nome:")
+const idadeAluno = Number(prompt("Digite sua idade:"))
+const curso = prompt("Digite seu curso:")
+const ano = parseInt(prompt("Digite o ano:"))
+
 //Exercício 9
 
 //Variavel string
