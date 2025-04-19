@@ -50,10 +50,16 @@ switch (true) {
 }
 
 // Exibe os resultados no console
-console.log(Peso: ${peso} kg);
-console.log(Altura: ${altura} m);
-console.log(IMC: ${imc.toFixed(2)});
-console.log(Classificação: ${classificacao}
+console.log(`Peso: ${peso} kg`);
+console.log(`Altura: ${altura} m`);
+console.log(`IMC: ${imc.toFixed(2)}`);
+console.log(`Classificação: ${classificacao}`);
+
+//EXERCÍCIO 4
+// Estrutura de repetição até 50
+for (let i = 1; i <= 50; i++) {
+    console.log("O valor é:", i);
+}
 
 
 //Exercício 9
